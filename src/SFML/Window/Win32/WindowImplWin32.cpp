@@ -1118,6 +1118,8 @@ Keyboard::Key WindowImplWin32::virtualKeyCodeToSF(WPARAM key, LPARAM flags)
         case '7':           return Keyboard::Num7;
         case '8':           return Keyboard::Num8;
         case '9':           return Keyboard::Num9;
+        case VK_DECIMAL:    return Keyboard::NumDecimal;
+        case VK_CAPITAL:    return Keyboard::CapsLock;
     }
 
     return Keyboard::Unknown;

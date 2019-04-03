@@ -149,6 +149,9 @@ public:
         F14,          ///< The F14 key
         F15,          ///< The F15 key
         Pause,        ///< The Pause key
+        CapsLock,     ///< The CapsLock key
+        NumDecimal,   ///< The numpad . key
+
 
         KeyCount,     ///< Keep last -- the total number of keyboard keys
 
